@@ -7,13 +7,13 @@ public class Calculator {
         
         System.out.println("Calculadora Simples\n");
         
-        System.out.print("Digite o primeiro número: ");
+        System.out.print("Digite o primeiro numero: ");
         double num1 = scanner.nextDouble();
         
         System.out.print("Digite o operador (+, -, *, /): ");
         char operator = scanner.next().charAt(0);
         
-        System.out.print("Digite o segundo número: ");
+        System.out.print("Digite o segundo numero: ");
         double num2 = scanner.nextDouble();
         
         double result = 0.0;
